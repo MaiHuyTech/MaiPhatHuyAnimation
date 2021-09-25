@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaiPhatHuyAnimation">
         <activity
+            android:name=".RecyclerViewAnimationLayout3"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewAnimationLayout2"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecyclerViewAnimationLayout1"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
